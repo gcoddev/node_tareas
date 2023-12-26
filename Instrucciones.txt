@@ -1,0 +1,9 @@
+Este es el proyecto de NodeJS donde se agrego lo siguiente:
+
+1. Script "start" para el "npm run start" cuando sea para subir a produccion
+
+2. Dentro de la peticion PUT, una forma de solo validar el cambio del estado de la tarea mas no sus demas campos
+
+3. Edicion de la base de datos, para la columna estado lo siguiente:
+estado valor '0': para "Tarea pendiente"
+estado valor '1': para "Tarea completa"
